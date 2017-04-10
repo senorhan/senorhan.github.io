@@ -102,3 +102,26 @@ footer li img {
   width: 32px;
   height: 32px;
 }
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+
+.featured-stories {
+    color: #393c3d;
+    font-size: 24px;
+}
+
+.featured-stories p {
+    font-size: 15px;
+    margin-bottom: 13px;
+}
