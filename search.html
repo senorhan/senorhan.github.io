@@ -22,24 +22,15 @@
   </header>
 
 <!--New Search Bar-->
-<div id="tfheader">
-    <form id="tfnewsearch" method="get" action="http://senorhan.github.io">
-        <input type="text" class="tftextinput" id="tftextinput" name="q" size="21" maxlength="120"><input type="submit" value="search" class="tfbutton">
-    </form>
-<div class="tfclear"></div>
+<div id="contentsearch">
+  <form id="searchForm" name="searchForm" action="http://senorhan.github.io">
+    <input name="q" type="text" value="search" maxlength="200" />
+    <input name="q" type="hidden" value="site:mysite.com"/>
+    <input name="submit" type="submit" value="Search" />
+  </form>
 </div>
 
-<script>
-    var a = document.getElementById('tfnewsearch');
-    a.addEventListener('submit',function(e) {
-        e.preventDefault();
-        var b = document.getElementById('tftextinput').value;
-        window.location.href = 'http://senorhan.github.io/'+b;
 
-    });
-
-</script>
-	
 <!--Footer below-->
  <footer class="container">
   <div class="row">
