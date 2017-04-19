@@ -7,7 +7,7 @@ body {
   font-weight: 300;
   background: url('http://res.cloudinary.com/lfncztstq/image/upload/v1492642061/home_office_xpm8ol.jpg') no-repeat center center;
   background-size: cover;
-  min-height: 100vh;
+  min-height: 30vh;
   padding-top: 20px;
   padding-bottom: 20px;
 }
