@@ -15,11 +15,11 @@ div.background-img {
 }
 div.nav {
     position: fixed;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0);
     top: 0;
     left: 0;
     right:0;
-    padding: 16px;
+    padding: 2px;
 }
 
 .col-md-4 {
