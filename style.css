@@ -9,6 +9,9 @@ div.background-img {
     right:0;
     bottom:0;
     background-size:cover;
+    height:500px;
+    display: flex;
+    align-items: center;
 }
 div.nav {
     position: fixed;
