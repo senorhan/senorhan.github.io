@@ -81,7 +81,7 @@ section .row img {
 
 .btn.btn-primary:hover {
   color: white;
-  background-color: royalblue;
+  background-color: rgb(242,103,60);
 }
 
 .btn-secondary {
